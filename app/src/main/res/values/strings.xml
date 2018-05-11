@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Place Search</string>
+
+    // Main page information
+    <string name="tab1">SEARCH</string>
+    <string name="tab2">FAVORITE</string>
+
+    // Search form
+    <string name="keyword">Keyword</string>
+    <string name="keyword_hint">Enter keyword</string>
+    <string name="category">Category</string>
+    <string name="category_default">Default</string>
+    <string-array name="category">
+        <item>Default</item>
+        <item>Airport</item>
+        <item>Amusement Park</item>
+        <item>Aquarium</item>
+        <item>Art Gallery</item>
+        <item>Bakery</item>
+        <item>Bar</item>
+        <item>Beauty Salon</item>
+        <item>Bowling Alley</item>
+        <item>Bus station</item>
+        <item>Cafe</item>
+        <item>Campground</item>
+        <item>Car Rental</item>
+        <item>Casino</item>
+        <item>Lodging</item>
+        <item>Movie Theater</item>
+        <item>Museum</item>
+        <item>Night Club</item>
+        <item>Park</item>
+        <item>Parking</item>
+        <item>Restaurant</item>
+        <item>Shopping Mall</item>
+        <item>Stadium</item>
+        <item>Subway Station</item>
+        <item>Taxi Stand</item>
+        <item>Train Station</item>
+        <item>Transit Station</item>
+        <item>Travel Agency</item>
+        <item>Zoo</item>
+    </string-array>
+    <string name="distance">Distance (in miles)</string>
+    <string name="distance_hint">Enter distance (default 10 miles)</string>
+    <string name="currentLoc">Current location</string>
+    <string name="otherLoc">Other. Specify location</string>
+    <string name="other_hint">Type in the location</string>
+    <string name="mandatory">Please enter mandatory field</string>
+
+    // Detail tabs
+    <string name="info_tab">INFO</string>
+    <string name="photos_tab">PHOTOS</string>
+    <string name="map_tab">MAP</string>
+    <string name="reviews_tab">REVIEWS</string>
+    
+    // Info fragment
+    <string name="add">Address</string>
+    <string name="phone">Phone Number</string>
+    <string name="price">Price Level</string>
+    <string name="rate">Rating</string>
+    <string name="ggPage">Google Page</string>
+    <string name="web">Website</string>
+
+    // Map fragment
+    <string name="travel">Travel mode</string>
+    <string name="travel_default">Driving</string>
+    <string-array name="mode_choice">
+        <item>Driving</item>
+        <item>Bicycling</item>
+        <item>Transit</item>
+        <item>Walking</item>
+    </string-array>
+
+    // Reviews fragment
+    <string name="reviews_default">Google reviews</string>
+    <string-array name="type_choice">
+        <item>Google reviews</item>
+        <item>Yelp reviews</item>
+    </string-array>
+
+    <string name="sort_default">Default order</string>
+    <string-array name="sort_choice">
+        <item>Default order</item>
+        <item>Highest rating</item>
+        <item>Lowest rating</item>
+        <item>Most recent</item>
+        <item>Least recent</item>
+    </string-array>
+
+    // Error messages
+    <string name="info_err">No info</string>
+    <string name="photos_err">No photos</string>
+    <string name="map_err">No map</string>
+    <string name="reviews_err">No reviews</string>
+    <string name="results_err">No results</string>
+    <string name="favorite_err">No favorites</string>
+
+
+</resources>

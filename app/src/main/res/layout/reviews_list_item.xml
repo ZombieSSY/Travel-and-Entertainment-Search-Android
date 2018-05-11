@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:autoLink="web"
+    android:linksClickable="true"
+    android:id="@+id/review_item">
+
+    <ImageView
+        android:id="@+id/reviews_profile"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:visibility="visible"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/reviews_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:ellipsize="end"
+            android:linksClickable="true"
+            android:textColor="@color/colorPrimary"
+            android:textColorLink="@color/colorPrimary"
+            android:textSize="16sp" />
+
+        <RatingBar
+            android:id="@+id/reviews_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:transformPivotX="0dp"
+            android:transformPivotY="0dp"
+            android:isIndicator="true"
+            android:max="5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reviews_time"
+            android:ellipsize="end"
+            android:textColor="#868686"
+            android:textSize="16sp"
+            android:layout_marginTop="-15dp"/>
+
+        <TextView
+            android:id="@+id/reviews_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:textColor="#868686"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
